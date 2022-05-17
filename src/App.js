@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Spinner from '../Spinner';
-import Header from '../Header';
-import Main from '../Main';
-import Footer from '../Footer';
-import './app.scss';
+import Spinner from './components/Spinner';
+import Header from './components/Header';
+import Main from './components/Main';
+import Footer from './components/Footer';
+import './static/scss/app.scss';
 
 import hljs from 'highlight.js/lib/core';
 import javascript from 'highlight.js/lib/languages/javascript';
