@@ -1,13 +1,14 @@
-import React from 'react';
-
-import './main.scss';
+import Sidebar from '../Sidebar'
+import Content from '../Content'
+import './main.scss'
 
 function Main() {
     return (
         <main className="app-main">
-            Main
+            <Sidebar/>
+            <Content/>
         </main>
-    );
+    )
 }
 
-export default Main;
+export default Main

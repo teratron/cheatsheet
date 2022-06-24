@@ -4,7 +4,7 @@ import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import Main from '../../components/Main'
 
-function Blog() {
+function Map() {
     return (
         <React.Fragment>
             <Header/>
@@ -14,4 +14,4 @@ function Blog() {
     )
 }
 
-export default Blog
+export default Map

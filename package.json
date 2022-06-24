@@ -2,9 +2,19 @@
   "name": "cheatsheet",
   "version": "0.0.1",
   "private": true,
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "author": "Oleg Alexandrov",
+  "main": "src/index.js",
+  "description": "Cheatsheet",
+  "keywords": [
+    "go",
+    "js",
+    "html",
+    "css",
+    "sass",
+    "scss",
+    "react",
+    "graphql"
+  ],
+  "author": "Oleg Alexandrov <alexandrovoleg.ru@gmail.com>",
   "license": "ISC",
   "repository": {
     "type": "git",
@@ -13,20 +23,20 @@
   "bugs": {
     "url": "https://github.com/teratron/cheatsheet/issues"
   },
+  "homepage": "https://teratron.github.io/cheatsheet",
   "dependencies": {
-    "highlight.js": "^11.1.0"
+    "highlight.js": "^11.5.1"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^12.0.0",
-    "@testing-library/user-event": "^13.1.9",
-    "node-sass": "^6.0.1",
-    "prop-types": "^15.7.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "^4.0.3",
-    "web-vitals": "^2.1.0"
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.2.1",
+    "sass": "^1.53.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",

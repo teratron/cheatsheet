@@ -1,24 +1,31 @@
+/*
 @import '../../static/scss/mixins/bar';
+*/
 
 .app-header {
+    max-height:       var(--app-header-height);
     background-color: var(--color-primary);
-    color: var(--color-primary-font);
-    z-index: var(--zindex-header);
-    @include bar(var(--app-header-height), 0, var(--app-layout-padding));
+    color:            var(--color-primary-font);
+    //z-index: var(--zindex-header);
+    //@include bar(var(--app-header-height), 0, var(--app-layout-padding));
+
+    &, > .app-container {
+        height: var(--app-header-height);
+    }
+
+    > .app-container {
+        height: var(--app-header-height);
+    }
 
     .logo {
-        height: 3.4em;
-        margin-right: 2rem;
+        height:         3.4em;
+        //margin-right: 2rem;
         pointer-events: none;
     }
 
     .title {
-        font-size: 4rem;
+        font-size:   4rem;
         font-weight: 500;
-        margin: 0;
-    }
-
-    .login {
-        text-transform: none;
+        margin:      0;
     }
 }

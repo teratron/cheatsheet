@@ -245,7 +245,7 @@ web_modules/
 dist
 
 # production
-/build
+#/build
 
 # Gatsby files
 .cache/
@@ -286,11 +286,11 @@ dist
 
 ### VisualStudioCode template
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-*.code-workspace
+#!.vscode/settings.json
+#!.vscode/tasks.json
+#!.vscode/launch.json
+#!.vscode/extensions.json
+#*.code-workspace
 
 # Local History for Visual Studio Code
 .history/
@@ -322,3 +322,9 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+tmp/
+.tmp/
+.run/
+
+*/static/**/*.txt
