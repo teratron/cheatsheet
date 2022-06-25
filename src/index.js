@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 
-import Go from './pages/Go'
+import Golang from './pages/Golang'
 import Home from './pages/Home'
 import HTML from './pages/HTML'
 import JavaScript from './pages/JavaScript'
@@ -20,7 +20,7 @@ ReactDOM.createRoot(root).render(
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home/>}/>
-                <Route path="go" element={<Go/>}/>
+                <Route path="go" element={<Golang/>}/>
                 <Route path="javascript" element={<JavaScript/>}/>
                 <Route path="reactjs" element={<ReactJS/>}/>
                 <Route path="html" element={<HTML/>}/>

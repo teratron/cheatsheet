@@ -1,10 +1,10 @@
 import React from 'react'
-import Footer from '../../components/Footer'
 
+import Footer from '../../components/Footer'
 import Header from '../../components/Header'
 import Main from '../../components/Main'
 
-function Go() {
+function Golang() {
     return (
         <React.Fragment>
             <Header/>
@@ -16,4 +16,4 @@ function Go() {
     )
 }
 
-export default Go
+export default Golang
