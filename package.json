@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/teratron/cheatsheet/issues"
   },
-  "homepage": ".",
+  "homepage": "https://teratron.github.io/cheatsheet",
   "dependencies": {
     "highlight.js": "^11.5.1"
   },
