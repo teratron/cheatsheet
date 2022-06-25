@@ -1,12 +1,8 @@
-/*
-@import '../../static/scss/mixins/bar';
-*/
-
 .app-header {
-    max-height:       var(--app-header-height);
-    background-color: var(--color-primary);
-    color:            var(--color-primary-font);
-    //z-index: var(--zindex-header);
+    max-height: var(--app-header-height);
+    //background-color: var(--color-primary);
+    color:      var(--color-primary-font);
+    z-index:    var(--zindex-header);
     //@include bar(var(--app-header-height), 0, var(--app-layout-padding));
 
     &, > .app-container {

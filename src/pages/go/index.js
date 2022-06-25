@@ -1,17 +1,19 @@
-import * as React from 'react'
+import React from 'react'
+import Footer from '../../components/Footer'
 
 import Header from '../../components/Header'
-import Footer from '../../components/Footer'
 import Main from '../../components/Main'
 
-function Blog() {
+function Go() {
     return (
         <React.Fragment>
             <Header/>
-            <Main/>
+            <Main>
+                Go
+            </Main>
             <Footer/>
         </React.Fragment>
     )
 }
 
-export default Blog
+export default Go

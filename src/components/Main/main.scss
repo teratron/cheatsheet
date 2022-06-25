@@ -1,6 +1,12 @@
 .app-main {
-    /*background-color: white;
-    display: grid;
-    grid-template-columns: 360px auto;
-    z-index: var(--zindex-main);*/
+    background-color: white;
+    display:          grid;
+    min-height:       300px;
+    height:           1fr;
+    z-index:          var(--zindex-main);
+
+    > .app-container {
+        align-content: start;
+        height:        100%;
+    }
 }

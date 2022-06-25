@@ -1,17 +1,19 @@
-import * as React from 'react'
+import React from 'react'
+import Footer from '../../components/Footer'
 
 import Header from '../../components/Header'
-import Footer from '../../components/Footer'
 import Main from '../../components/Main'
 
-function Home() {
+function SCSS() {
     return (
         <React.Fragment>
             <Header/>
-            <Main/>
+            <Main>
+                SCSS
+            </Main>
             <Footer/>
         </React.Fragment>
     )
 }
 
-export default Home
+export default SCSS

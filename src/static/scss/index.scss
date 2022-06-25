@@ -1,9 +1,4 @@
 @import 'themes/default';
-
 @import 'variables';
-//@import 'reset';
-
-// Root
-#root {
-    min-height: 100vh;
-}
+@import 'reset';
+@import 'app';
