@@ -1,6 +1,7 @@
 import {Link} from 'react-router-dom'
-import logo from '../../static/media/logo.svg'
+
 import Container from '../Container'
+import logo from '../../static/media/logo.svg'
 import './header.scss'
 
 
