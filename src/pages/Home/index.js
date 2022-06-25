@@ -5,11 +5,12 @@ import Main from '../../components/Main'
 import Footer from '../../components/Footer'
 import Tiles from '../../components/Tiles'
 
-function Home() {
+function Home(_props) {
     return (
         <React.Fragment>
             <Header/>
             <Main>
+                Home
                 <Tiles/>
             </Main>
             <Footer/>
