@@ -10,7 +10,6 @@ function Home(_props) {
         <React.Fragment>
             <Header/>
             <Main>
-                Home
                 <Tiles/>
             </Main>
             <Footer/>

@@ -1,29 +1,18 @@
-:root {
-    /* Layout */
-    --html-font-size:        .5em; // 8px
 
-    --app-layout-padding:    7rem;
-    --app-header-height:     96px;
-    --app-footer-height:     220px;
-
-    --app-navbar-height:     11rem;
-    --app-tab-height:        8.5rem;
-
-    /* Z-index */
-    --zindex-body:           1;
-    --zindex-app:            10;
-    --zindex-main:           20;
-    --zindex-content:        30;
-    --zindex-sidebar:        40;
-    --zindex-header:         50;
-    --zindex-footer:         60;
-    --zindex-dropdown:       1000;
-    --zindex-sticky:         2000;
-    --zindex-fixed:          3000;
-    --zindex-modal-backdrop: 4000;
-    --zindex-offcanvas:      5000;
-    --zindex-modal:          6000;
-    --zindex-popover:        7000;
-    --zindex-tooltip:        8000;
-    --zindex-debug:          10000;
-}
+// Z-index
+$zindex_body:           1;
+$zindex_app:            10;
+$zindex_main:           20;
+$zindex_content:        30;
+$zindex_sidebar:        40;
+$zindex_header:         50;
+$zindex_footer:         60;
+$zindex_dropdown:       1000;
+$zindex_sticky:         2000;
+$zindex_fixed:          3000;
+$zindex_modal-backdrop: 4000;
+$zindex_offcanvas:      5000;
+$zindex_modal:          6000;
+$zindex_popover:        7000;
+$zindex_tooltip:        8000;
+$zindex_debug:          10000;

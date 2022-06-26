@@ -20,10 +20,10 @@ ReactDOM.createRoot(root).render(
     <React.StrictMode>
         <Router basename={process.env.PUBLIC_URL}>
             <Routes>
-                <Route index element={<Home/>}/>
+                <Route path="/" element={<Home/>}/>
                 <Route path="go" element={<Golang/>}/>
                 <Route path="javascript" element={<JavaScript/>}/>
-                <Route epath="reactjs" element={<ReactJS/>}/>
+                <Route path="reactjs" element={<ReactJS/>}/>
                 <Route path="html" element={<HTML/>}/>
                 <Route path="scss" element={<SCSS/>}/>
                 <Route path="*" element={<NotFound/>} status={404}/>
