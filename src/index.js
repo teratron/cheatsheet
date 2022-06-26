@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 
 import Golang from './pages/Golang'
 import Home from './pages/Home'
@@ -18,7 +18,7 @@ root.className = 'app'
 
 ReactDOM.createRoot(root).render(
     <React.StrictMode>
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Router basename={process.env.PUBLIC_URL}>
             <Routes>
                 <Route index element={<Home/>}/>
                 <Route path="go" element={<Golang/>}/>
@@ -28,7 +28,7 @@ ReactDOM.createRoot(root).render(
                 <Route path="scss" element={<SCSS/>}/>
                 <Route path="*" element={<NotFound/>} status={404}/>
             </Routes>
-        </BrowserRouter>
+        </Router>
     </React.StrictMode>
 )
 
