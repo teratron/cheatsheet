@@ -8,7 +8,7 @@ import HTML from './pages/HTML'
 import JavaScript from './pages/JavaScript'
 import ReactJS from './pages/ReactJS'
 import SCSS from './pages/SCSS'
-import {Error404} from './pages/Error'
+import {NotFound} from './pages/Error'
 
 import reportWebVitals from './reportWebVitals'
 import './static/scss/index.scss'
@@ -18,15 +18,15 @@ root.className = 'app'
 
 ReactDOM.createRoot(root).render(
     <React.StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Routes>
                 <Route index element={<Home/>}/>
                 <Route path="go" element={<Golang/>}/>
                 <Route path="javascript" element={<JavaScript/>}/>
-                <Route path="reactjs" element={<ReactJS/>}/>
+                <Route epath="reactjs" element={<ReactJS/>}/>
                 <Route path="html" element={<HTML/>}/>
                 <Route path="scss" element={<SCSS/>}/>
-                <Route path="*" element={<Error404/>}/>
+                <Route path="*" element={<NotFound/>} status={404}/>
             </Routes>
         </BrowserRouter>
     </React.StrictMode>

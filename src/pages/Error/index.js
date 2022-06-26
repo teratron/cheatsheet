@@ -2,9 +2,9 @@ function Error() {
     return null
 }
 
-function Error404() {
+function NotFound() {
     return null
 }
 
 export default Error
-export {Error404}
+export {NotFound}
