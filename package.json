@@ -1,7 +1,7 @@
 {
     "name": "cheatsheet",
     "version": "0.0.1",
-    "private": false,
+    "private": true,
     "main": "src/index.js",
     "description": "Cheat sheets for popular web technologies",
     "keywords": [
