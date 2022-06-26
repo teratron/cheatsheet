@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.aa00f62f.css",
-    "main.js": "./static/js/main.9786b8fb.js",
-    "static/js/787.dd700030.chunk.js": "./static/js/787.dd700030.chunk.js",
-    "static/media/logo.svg": "./static/media/logo.489fff331062edd8fa43c8c15eee832e.svg",
-    "index.html": "./index.html",
-    "main.aa00f62f.css.map": "./static/css/main.aa00f62f.css.map",
-    "main.9786b8fb.js.map": "./static/js/main.9786b8fb.js.map",
-    "787.dd700030.chunk.js.map": "./static/js/787.dd700030.chunk.js.map"
+    "main.css": "/teratron/cheatsheet/static/css/main.2aec886c.css",
+    "main.js": "/teratron/cheatsheet/static/js/main.a0c25e1f.js",
+    "static/js/787.dd700030.chunk.js": "/teratron/cheatsheet/static/js/787.dd700030.chunk.js",
+    "static/media/logo.svg": "/teratron/cheatsheet/static/media/logo.489fff331062edd8fa43c8c15eee832e.svg",
+    "index.html": "/teratron/cheatsheet/index.html",
+    "main.2aec886c.css.map": "/teratron/cheatsheet/static/css/main.2aec886c.css.map",
+    "main.a0c25e1f.js.map": "/teratron/cheatsheet/static/js/main.a0c25e1f.js.map",
+    "787.dd700030.chunk.js.map": "/teratron/cheatsheet/static/js/787.dd700030.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa00f62f.css",
-    "static/js/main.9786b8fb.js"
+    "static/css/main.2aec886c.css",
+    "static/js/main.a0c25e1f.js"
   ]
 }
